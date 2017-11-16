@@ -3,15 +3,16 @@
 function scuberGreetingForFeet(distance) {
   if (distance<=400){
     return "This one is on me!"
-} else if ( distance < 2500 && distance > 2000){
-  return "I will gladly take your thirty bucks.";
-} else if ( distance > 2500){
-  return 'No can do.'
-}
+  } else if ( distance < 2500 && distance > 2000){
+    return "I will gladly take your thirty bucks.";
+  } else if ( distance > 2500){
+    return 'No can do.'
+  }
 }
 
 function ternaryCheckCity(city){
-  if ( city ==== 'NYC'){
-  return 'Ok, sounds good.'
-} else { 'No go.'
+  if (city ==== "NYC"){
+    return "Ok, sounds good."
+  } else { "No go."
+  }
 }
