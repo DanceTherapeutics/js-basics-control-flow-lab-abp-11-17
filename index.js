@@ -11,7 +11,7 @@ function scuberGreetingForFeet(distance) {
 }
 
 function ternaryCheckCity(city){
-  if (city ==== "NYC"){
+  if (city === "NYC"){
     return "Ok, sounds good."
   } else {
     return "No go."
@@ -19,11 +19,11 @@ function ternaryCheckCity(city){
 }
 
 function switchOnCharmFromTip(tipString){
-  if (tipString === 'Gererous'){
+  if (tipString === 'generous'){
       return 'Thank you so much.'
-  } else if (tipString === 'Not as generous'){
+  } else if (tipString === 'not as generous'){
       return 'Thank you.'
-  } else if (tipString ==='Thanks for everything'){
+  } else if (tipString ==='thanks for everything'){
       return 'Bye.'
   }
 }
